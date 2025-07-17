@@ -29,7 +29,7 @@
 برای دریافت و اجرای Vorna، ابتدا مخزن را کلون کرده و سپس اسکریپت را اجرا کنید:
 
 ```bash
-curl -O https://raw.githubusercontent.com/ishadow-dev/VornaTunnel/main/vorna.py && python3 vorna.py
+curl -O https://raw.githubusercontent.com/iliya-Developer/VornaTunnel/main/vorna.py && python3 vorna.py
 ```
 
 📌 توجه: برای اجرای صحیح به Python 3 و دسترسی root یا sudo نیاز دارید.
@@ -45,18 +45,18 @@ curl -O https://raw.githubusercontent.com/ishadow-dev/VornaTunnel/main/vorna.py 
 
 در حال توسعه فعال و قابل ارتقا
 
-💰 حمایت مالی از توسعه
+# 💰 حمایت مالی از توسعه
 برای حمایت از توسعه‌دهنده و ادامه‌ی پروژه:
 
-TRX (Tron): TLfVhyK6ihTuPNtFpuhULNuJaiKFLHxMFL
+- TRX (Tron): TJFzpTArQvGRo5QJ8vz8YX2F4bVeuKXv8k
 
-Ton: UQC42Zx1E8SQunnNIx00UZBr_GEs_2kTgT6HBcg_S64GzUj4
+- Ton: UQC9YRTn8iuDd46jOAkrek3xd8U3826uzbXF9EKSMFMIE0tL
 
-USDT (BEP20): 0xED771A849B8D911f30804Cb68e76adcc5bcF5D16
+- USDT (BEP20): 0x47e832e2F8D1c3F593Ec94d1Ddb497F81847AAF7
 
-⭐️ با یک ستاره از ما حمایت کنید
+# ⭐️ با یک ستاره از ما حمایت کنید
 اگر Vorna به کارتان آمده، لطفاً با زدن ستاره ⭐️ از پروژه پشتیبانی کنید.
 
 
-📬 ارتباط با توسعه‌دهنده
+# 📬 ارتباط با توسعه‌دهنده
 سؤالات، باگ‌ها یا پیشنهادات خود را از طریق [Issues](https://github.com/iliya-Developer/VornaTunnel/issues) ثبت کنید.
