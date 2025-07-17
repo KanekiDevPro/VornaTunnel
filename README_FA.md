@@ -45,18 +45,18 @@ curl -O https://raw.githubusercontent.com/iliya-Developer/VornaTunnel/main/vorna
 
 در حال توسعه فعال و قابل ارتقا
 
-# 💰 حمایت مالی از توسعه
+## 💰 حمایت مالی از توسعه
 برای حمایت از توسعه‌دهنده و ادامه‌ی پروژه:
 
-- TRX (Tron): TJFzpTArQvGRo5QJ8vz8YX2F4bVeuKXv8k
+- TRX (Tron): `TJFzpTArQvGRo5QJ8vz8YX2F4bVeuKXv8k`
 
-- Ton: UQC9YRTn8iuDd46jOAkrek3xd8U3826uzbXF9EKSMFMIE0tL
+- Ton: `UQC9YRTn8iuDd46jOAkrek3xd8U3826uzbXF9EKSMFMIE0tL`
 
-- USDT (BEP20): 0x47e832e2F8D1c3F593Ec94d1Ddb497F81847AAF7
+- USDT (BEP20): `0x47e832e2F8D1c3F593Ec94d1Ddb497F81847AAF7`
 
-# ⭐️ با یک ستاره از ما حمایت کنید
+#3 ⭐️ با یک ستاره از ما حمایت کنید
 اگر Vorna به کارتان آمده، لطفاً با زدن ستاره ⭐️ از پروژه پشتیبانی کنید.
 
 
-# 📬 ارتباط با توسعه‌دهنده
+## 📬 ارتباط با توسعه‌دهنده
 سؤالات، باگ‌ها یا پیشنهادات خود را از طریق [Issues](https://github.com/iliya-Developer/VornaTunnel/issues) ثبت کنید.
