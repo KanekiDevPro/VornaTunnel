@@ -1,12 +1,17 @@
-# v1.0
+# VornaTunnel v1.0
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/iliya-Developer/VornaTunnel/main/vorna.png" width="500">
 </div>
+<br>
+<div align="center"><br><b>
 
-<br><br>
+  برای توضیحات <a href="https://github.com/MrAminiDev/LenaTunnel/blob/main/README-fa.md"> فارسی اینجا بزنید </a>
 
-# Vorna Tunnel — تونلی سبک، منعطف و همیشه در دسترس
+</b></div>
+<br>
+
+# ورنا تانل — تونلی سبک، منعطف و همیشه در دسترس
 
 **ورنا** یک ابزار تونل‌سازی هوشمند، سریع و سازگار با انواع شبکه‌ است که با استفاده از تکنولوژی **VxLAN** و پروتکل **UDP** توسعه یافته.  
 هدف Vorna کاهش پیچیدگی‌های مرسوم در تونل‌سازی و ارائه‌ی عملکردی پایدار حتی در شرایطی‌ست که IPv6 مسدود یا محدود شده باشد.
