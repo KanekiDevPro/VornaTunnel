@@ -29,7 +29,7 @@ def clear_state():
 
 def install_packages():
     print("Update And Install Packages...")
-    os.system('apt update && apt install -y python3 python3-pip socat python3.12-venv')
+    os.system('apt update && apt install -y python3 python3-pip socat python3-venv')
     os.system('python3 -m venv venv')
     os.system('venv/bin/pip install --upgrade pip')
     os.system('venv/bin/pip install requests colorama')
