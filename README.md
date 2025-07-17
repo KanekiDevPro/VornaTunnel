@@ -6,7 +6,7 @@
 <br>
 <div align="center"><br><b>
 
-  برای توضیحات فارسی <a href="https://github.com/iliya-developer/VornaTunnel/blob/main/README.md"> کلیک کنید </a>
+  برای توضیحات فارسی <a href="https://github.com/iliya-developer/VornaTunnel/blob/main/README_FA.md"> کلیک کنید </a>
 
 </b></div>
 <br>
