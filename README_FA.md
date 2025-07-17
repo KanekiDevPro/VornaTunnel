@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/iliya-Developer/VornaTunnel/main/vorna.png" width="500">
+  <img src="https://raw.githubusercontent.com/iliya-Developer/VornaTunnel/main/vorna1.png" width="500">
 </div>
 
 <br><br>
