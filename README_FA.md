@@ -6,7 +6,7 @@
 <br>
 <div align="center"><br><b>
 
-  برای توضیحات <a href="https://github.com/MrAminiDev/LenaTunnel/blob/main/README-fa.md"> فارسی اینجا بزنید </a>
+  برای توضیحات <a href="https://github.com/iliya-developer/VornaTunnel/blob/main/README.md"> انگلیسی اینجا بزنید </a>
 
 </b></div>
 <br>
