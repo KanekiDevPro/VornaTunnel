@@ -13,7 +13,7 @@
 
 # Vorna Tunnel — Lightweight, Flexible, and Always Accessible
 
-**Vorna** is a smart, fast, and network-compatible tunneling tool built using **VxLAN** technology and the **UDP** protocol.  
+**Vorna** is a smart, fast, and network-compatible tunneling tool built using **VxLAN** technology.  
 It is designed to reduce the complexity of traditional tunnel setups and deliver stable performance even in environments where IPv6 is blocked or limited.
 
 ---
@@ -26,7 +26,7 @@ It is designed to reduce the complexity of traditional tunnel setups and deliver
 | 🌐 **Multi-Tunnel (Upcoming)** | Ability to run multiple tunnels between nodes simultaneously |
 | 🧠 **Low Resource Usage** | Ideal for low-power devices, home servers, or small VPS setups |
 | 🚫 **IPv6 Independence** | Works seamlessly even if IPv6 is blocked |
-| 📡 **UDP Protocol** | Fast, lightweight, and optimized for real-time communication |
+| 📡 **VXLAN Protocol** | Fast, lightweight, and optimized for real-time communication |
 | 🔁 **Multi-Port Support** | Run multiple tunnels over different ports simultaneously |
 
 ---
