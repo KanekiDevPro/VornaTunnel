@@ -204,7 +204,7 @@ def configure_multi_tunnel(location):
                 continue
             vni = input("Enter VNI (e.g 88): ").strip()
             port = input("Enter Tunnel port: ").strip()
-            local_ip = input("Enter Local tunnel IP (e.g 10.10.10.1): ").strip() + '/24'
+            local_ip = input("Enter Local Tunnel IP (e.g 10.10.10.1): ").strip() + '/24'
             remote_vx = input("Enter Remote Tunnel IP (e.g 10.10.10.2): ").strip() + '/24'
             remote_pub = input("Enter Remote public IP: ").strip()
             tunnels.append((tun, vni, port, local_ip, remote_pub, remote_vx))
