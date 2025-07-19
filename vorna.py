@@ -36,7 +36,7 @@ def install_packages():
 def run_shell(shell):
     result = subprocess.run(shell, shell=True, capture_output=True, text=True)
     if result.returncode != 0:
-        print(f"Error: {result.stderr.strip()}")
+        print(f"Error or Warning: {result.stderr.strip()}")
     else:
         return result.stdout.strip()
 
@@ -212,7 +212,7 @@ def configure_multi_tunnel(location):
 
     for tun, vni, dstport, local_ip, remote_pub, remote_vx in tunnels:
         print(f"[.] Creating interface {tun}...")
-        run_shell(f"ip link add {tun} type vxlan id {vni} dev {base_iface} remote {remote_pub} dstport {dstport} nolearning")
+        run_shell(f"ip link add {tun} type vxlan id {vni} dev {base_iface} remote {remote_pub} dstport {dstport}")
         run_shell(f"ip addr add {local_ip} dev {tun}")
         run_shell(f"ip link set {tun} up")
         run_shell(f"iptables -I INPUT 1 -p udp --dport {dstport} -j ACCEPT")
@@ -223,7 +223,7 @@ def configure_multi_tunnel(location):
             f.write(f"""#!/bin/bash
                 set -e
                 ip link del {tun} || true
-                ip link add {tun} type vxlan id {vni} dev {base_iface} remote {remote_pub} dstport {dstport} nolearning
+                ip link add {tun} type vxlan id {vni} dev {base_iface} remote {remote_pub} dstport {dstport}
                 ip addr add {local_ip} dev {tun}
                 ip link set up dev {tun}
                 iptables -I INPUT 1 -p udp --dport {dstport} -j ACCEPT
@@ -251,7 +251,7 @@ def configure_multi_tunnel(location):
         print(Fore.GREEN + f"Service for {tun} started.")
 
         if location.lower() == 'iran':
-            ports = input(f"Forward ports for {tun} (comma separated, leave blank if none): ").strip()
+            ports = input(f"Enter forward ports for {tun} (8080, 9090, ...): ").strip()
             for port in [p.strip() for p in ports.split(',') if p.strip()]:
                 svc_name = f"vorna-forward-{port}-{tun}.service"
                 svc_path = f"/etc/systemd/system/{svc_name}"
@@ -362,7 +362,7 @@ def remove_vorna_tunnel():
     os.system("systemctl daemon-reload")
     clear_state()
     active_config = None
-    print(Fore.GREEN + "\n[✓] All Vorna tunnels and services removed successfully.\n")
+    print(Fore.GREEN + "\n[✓] All Vorna tunnel and services removed successfully.\n")
     
 def get_server_info():
     try:
