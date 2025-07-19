@@ -23,7 +23,7 @@ It is designed to reduce the complexity of traditional tunnel setups and deliver
 | Feature | Description |
 |--------|-------------|
 | 🔗 **Single Tunnel** | Point-to-point connection with minimal configuration |
-| 🌐 **Multi-Tunnel (Upcoming)** | Ability to run multiple tunnels between nodes simultaneously |
+| 🌐 **Multi-Tunnel** | Ability to run multiple tunnels between nodes simultaneously |
 | 🧠 **Low Resource Usage** | Ideal for low-power devices, home servers, or small VPS setups |
 | 🚫 **IPv6 Independence** | Works seamlessly even if IPv6 is blocked |
 | 📡 **VXLAN Protocol** | Fast, lightweight, and optimized for real-time communication |
