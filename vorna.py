@@ -26,13 +26,6 @@ def clear_state():
     if os.path.exists(STATE_FILE):
         os.remove(STATE_FILE)
 
-def install_packages():
-    print("Update And Install Packages...")
-    os.system('apt update && apt install -y python3 python3-pip socat python3-venv')
-    os.system('python3 -m venv venv')
-    os.system('venv/bin/pip install --upgrade pip')
-    os.system('venv/bin/pip install requests colorama')
-
 def run_shell(shell):
     result = subprocess.run(shell, shell=True, capture_output=True, text=True)
     if result.returncode != 0:
@@ -399,7 +392,6 @@ def show_menu():
 
 def menu():
     try:
-        install_packages()
         while True:
             os.system('clear' if os.name == 'posix' else 'cls')
             show_menu()
