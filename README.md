@@ -36,7 +36,7 @@ It is designed to reduce the complexity of traditional tunnel setups and deliver
 To download and run Vorna, simply execute the following:
 
 ```bash
-curl -O https://raw.githubusercontent.com/iliya-Developer/VornaTunnel/main/vorna.py && python3 vorna.py
+bash <(curl -Ls https://raw.githubusercontent.com/iliya-Developer/VornaTunnel/main/install.sh)
 ```
 
 📌 Note: Python 3 and root (or sudo) privileges are required to run properly.
