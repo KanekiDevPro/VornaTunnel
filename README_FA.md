@@ -36,7 +36,7 @@
 برای دریافت و اجرای Vorna، ابتدا مخزن را کلون کرده و سپس اسکریپت را اجرا کنید:
 
 ```bash
-curl -O https://raw.githubusercontent.com/iliya-Developer/VornaTunnel/main/vorna.py && python3 vorna.py
+bash <(curl -Ls https://raw.githubusercontent.com/iliya-Developer/VornaTunnel/main/install.sh)
 ```
 
 📌 توجه: برای اجرای صحیح به Python 3 و دسترسی root یا sudo نیاز دارید.
